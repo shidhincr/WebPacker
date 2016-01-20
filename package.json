@@ -1,0 +1,36 @@
+{
+  "name": "webpacker",
+  "version": "0.0.0",
+  "description": "My first-class module",
+  "license": "MIT",
+  "repository": "shidhincr/webpacker",
+  "author": {
+    "name": "Shidhin C R",
+    "email": "shidhincr@gmail.com",
+    "url": "www.undefinednull.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "meow": "^3.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "eslint": "^1.10.3",
+    "xo": "^0.12.1"
+  }
+}
