@@ -17,4 +17,4 @@ var cli = meow([
 	'  ponies & rainbows'
 ]);
 
-console.log(webpacker(cli.input[0] || 'unicorns'));
+webpacker(cli.input[0] || 'unicorns');

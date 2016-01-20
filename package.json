@@ -21,11 +21,12 @@
     "cli.js"
   ],
   "keywords": [
-    "cli-app",
-    "cli",
-    ""
+    "Webpack config file generator",
+    "Webpacker",
+    "cli"
   ],
   "dependencies": {
+    "inquirer": "^0.11.3",
     "meow": "^3.6.0"
   },
   "devDependencies": {

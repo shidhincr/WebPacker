@@ -1,11 +1,16 @@
 'use strict';
+var inquirer = require('inquirer');
 
-module.exports = function (str, opts) {
-	if (typeof str !== 'string') {
-		throw new TypeError('Expected a string');
-	}
-
-	opts = opts || {};
-
-	return str + ' & ' + (opts.postfix || 'rainbows');
+module.exports = function () {
+	var questions = {
+		type: 'input',
+		name: 'mainFile',
+		message: 'What is the main entry file name',
+		validate: function( fileName ) {
+			return !!fileName;
+		}
+	};
+	inquirer.prompt(questions, function(answers) {
+		console.log(JSON.stringify(answers));
+	});
 };
