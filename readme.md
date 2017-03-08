@@ -1,5 +1,7 @@
 # webpacker [![Build Status](https://travis-ci.org/shidhincr/webpacker.svg?branch=master)](https://travis-ci.org/shidhincr/webpacker)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/shidhincr/WebPacker.svg)](https://greenkeeper.io/)
+
 > My first-class module
 
 
